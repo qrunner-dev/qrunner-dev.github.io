@@ -26,7 +26,8 @@ var firestore = firebase.firestore();
     function firebasePush(input) {  
         //push itself       
         firestore.collection("newsletter").doc(input.value).set({
-          email: input.value
+          email: input.value,
+          updatedTimestamp: new Date().toISOString()
         })
         .then(function (mailsRef) {
           console.log("Email subscribed with id: ", input.value)
