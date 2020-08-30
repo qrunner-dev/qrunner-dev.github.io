@@ -18907,28 +18907,28 @@ textarea[resize='horizontal']
     bottom: auto;
     left: -4%;
 
-    background: rgba(5, 156, 238, .1);
+    background: rgba(255, 255, 255, .1);
 }
 .section-shaped .shape-style-1 :nth-child(2)
 {
     top: 10%;
     right: 4%;
 
-    background: rgba(5, 156, 238, .1);
+    background: rgba(255, 255, 255, .1);
 }
 .section-shaped .shape-style-1 :nth-child(3)
 {
     top: 280px;
     right: 5.66666%;
 
-    background: rgba(5, 156, 238, .3);
+    background: rgba(255, 255, 255, .3);
 }
 .section-shaped .shape-style-1 :nth-child(4)
 {
     top: 320px;
     right: 7%;
 
-    background: rgba(5, 156, 238, .15);
+    background: rgba(255, 255, 255, .15);
 }
 .section-shaped .shape-style-1 :nth-child(5)
 {
@@ -18936,7 +18936,7 @@ textarea[resize='horizontal']
     right: auto;
     left: 1%;
 
-    background: rgba(5, 156, 238, .05);
+    background: rgba(255, 255, 255, .05);
 }
 .section-shaped .shape-style-1 :nth-child(6)
 {
@@ -18947,28 +18947,28 @@ textarea[resize='horizontal']
     width: 200px;
     height: 200px;
 
-    background: rgba(5, 156, 238, .15);
+    background: rgba(255, 255, 255, .15);
 }
 .section-shaped .shape-style-1 :nth-child(7)
 {
     right: 36%;
     bottom: 50%;
 
-    background: rgba(5, 156, 238, .04);
+    background: rgba(255, 255, 255, .04);
 }
 .section-shaped .shape-style-1 :nth-child(8)
 {
     right: 2%;
     bottom: 70px;
 
-    background: rgba(5, 156, 238, 0.2);
+    background: rgba(255, 255, 255, 0.2);
 }
 .section-shaped .shape-style-1 :nth-child(9)
 {
     right: 2%;
     bottom: 1%;
 
-    background: rgba(5, 156, 238, 0.1);
+    background: rgba(255, 255, 255, 0.1);
 }
 .section-shaped .shape-style-1 :nth-child(10)
 {
