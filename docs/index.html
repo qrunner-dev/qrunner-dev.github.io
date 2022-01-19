@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html>
-   <!-- #1B1E48 -->
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <meta name="description" content="When you are too lazy doing things, let Qrunner do it for you!">
-      <meta name="author" content="Qrunner.xyz">
-      <title>Qrunner.xyz&mdash;Enabling the flexibility</title>
-      <!-- Favicon -->
-      <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
-      <!-- Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-      <!-- Icons -->
-      <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
-      <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-      <!-- Argon CSS -->
-      <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
-      <!-- Main CSS -->
-      <link type="text/css" href="./assets/css/index.css" rel="stylesheet">
-      <!-- The core Firebase JS SDK is always required and must be listed first -->
-      <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
-   </head>
-   <body>
-      <main>
-         <div class="position-relative">
+<!-- #1B1E48 -->
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="description" content="When you are too lazy doing things, let Qrunner do it for you!">
+   <meta name="author" content="Qrunner.xyz">
+   <title>Qrunner.xyz&mdash;Enabling the flexibility</title>
+   <!-- Favicon -->
+   <link href="./assets/img/brand/favicon.png" rel="icon" type="image/png">
+   <!-- Fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+   <!-- Icons -->
+   <link href="./assets/vendor/nucleo/css/nucleo.css" rel="stylesheet">
+   <link href="./assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+   <!-- Argon CSS -->
+   <link type="text/css" href="./assets/css/argon.css?v=1.0.1" rel="stylesheet">
+   <!-- Main CSS -->
+   <link type="text/css" href="./assets/css/index.css" rel="stylesheet">
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-GXT4FNBWC3"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'G-GXT4FNBWC3');
+   </script>
+</head>
+
+<body>
+   <main>
+      <div class="position-relative">
          <!-- shape Hero -->
          <section class="section section-sm section-shaped">
             <div class="shape shape-style-1">
@@ -41,92 +52,101 @@
                <div class="col px-0">
                   <div class="row row-grid">
                      <div class="col-lg-6">
-                        <h1 class="display-3 text-primary"><img src="./assets/img/brand/logo.png" class="logo"><span>Enabling the flexibility</span></h1>
-                        <p class="lead ">Qrunner enables you to do all of your operational tasks seamlessly from any of your favorite team-chatting application</p>
+                        <h1 class="display-3 text-primary"><img src="./assets/img/brand/logo.png"
+                              class="logo"><span>Enabling the flexibility</span></h1>
+                        <p class="lead ">Qrunner enables you to do all of your operational tasks seamlessly from any of
+                           your favorite team-chatting application</p>
                      </div>
                      <div class="col-lg-6 ">
                         <!-- <img src="./assets/img/theme/factory_illustration_blue.png" class="img-fluid"> -->
                         <img src="./assets/img/theme/landing_2.webp" class="img-fluid">
-                        
+
                      </div>
                   </div>
                </div>
          </section>
          <!-- 1st Hero Variation -->
-         </div>
-         <section class="section section-sm">
-            <div class="container">
-               <div class="row row-grid justify-content-center">
-                  <div class="col-lg-8 text-center">
-                     <h2 class="display-3">Sign Up for Early Access</h2>
-                     <p class="lead">Join the waiting list to get the early access when we're in Beta!</p>
-                     <div class="btn-wrapper">
-                        <form class="form-inline" id="subscribeNewsletter">
-                           <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address..."/>
-                           <button type="submit" id="btnSubmit" class="btn btn-primary mx-auto mb-3 mb-sm-0">Join Waiting List</button
-                        </form>
-                     </div>
-                     <h5 id="afterInput" style="display: none;">You've joined the queue. We will let you know when we're ready to set your account! Stay Tuned!</h5>
+      </div>
+      <section class="section section-sm">
+         <div class="container">
+            <div class="row row-grid justify-content-center">
+               <div class="col-lg-8 text-center">
+                  <h2 class="display-3">Sign Up for Early Access</h2>
+                  <p class="lead">Join the waiting list to get the early access when we're in Beta!</p>
+                  <div class="btn-wrapper">
+                     <form class="form-inline" id="subscribeNewsletter">
+                        <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
+                           placeholder="Enter email address..." />
+                        <button type="submit" id="btnSubmit" class="btn btn-primary mx-auto mb-3 mb-sm-0">Join Waiting
+                           List</button </form>
                   </div>
+                  <h5 id="afterInput" style="display: none;">You've joined the queue. We will let you know when we're
+                     ready to set your account! Stay Tuned!</h5>
                </div>
             </div>
-         </section>
-      </main>
-      <footer class="footer has-cards">
-         <div class="container">
-            <div class="row row-grid align-items-center my-md">
-               <div class="col-lg-6">
-                  <h3 class="text-primary font-weight-light mb-2">Find us!</h3>
-                  <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
-               </div>
-               <div class="col-lg-6 text-lg-center btn-wrapper">
-                  <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+         </div>
+      </section>
+   </main>
+   <footer class="footer has-cards">
+      <div class="container">
+         <div class="row row-grid align-items-center my-md">
+            <div class="col-lg-6">
+               <h3 class="text-primary font-weight-light mb-2">Find us!</h3>
+               <h4 class="mb-0 font-weight-light">Let's get in touch on any of these platforms.</h4>
+            </div>
+            <div class="col-lg-6 text-lg-center btn-wrapper">
+               <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg"
+                  data-toggle="tooltip" data-original-title="Follow us">
                   <i class="fa fa-twitter"></i>
-                  </a>
-                  <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip" data-original-title="Like us">
+               </a>
+               <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg"
+                  data-toggle="tooltip" data-original-title="Like us">
                   <i class="fa fa-facebook-square"></i>
-                  </a>
-                  <!-- <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
+               </a>
+               <!-- <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-instagram btn-round btn-lg" data-toggle="tooltip" data-original-title="Follow us">
                   <i class="fa fa-instagram"></i>
                   </a> -->
-                  <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-linkedin btn-lg btn-round" data-toggle="tooltip" data-original-title="Follow us">
+               <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-linkedin btn-lg btn-round"
+                  data-toggle="tooltip" data-original-title="Follow us">
                   <i class="fa fa-linkedin"></i>
-                  </a>
-                  <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip" data-original-title="Star on Github">
+               </a>
+               <a target="_blank" href="#" class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg"
+                  data-toggle="tooltip" data-original-title="Star on Github">
                   <i class="fa fa-github"></i>
-                  </a>
-               </div>
+               </a>
             </div>
-            <hr>
-            <div class="row align-items-center justify-content-md-between">
-               <div class="col-md-6">
-                  <div class="copyright">
-                     &copy; 2021 <a href="https://qrunner.xyz" target="_blank">Qrunner Inc</a>.
-                  </div>
+         </div>
+         <hr>
+         <div class="row align-items-center justify-content-md-between">
+            <div class="col-md-6">
+               <div class="copyright">
+                  &copy; 2021 <a href="https://qrunner.xyz" target="_blank">Qrunner Inc</a>.
                </div>
             </div>
          </div>
-      </footer>
-      <!-- Core -->
-      <script src="./assets/vendor/jquery/jquery.min.js"></script>
-      <script src="./assets/vendor/popper/popper.min.js"></script>
-      <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
-      <script src="./assets/vendor/headroom/headroom.min.js"></script>
-      <!-- Argon JS -->
-      <script src="./assets/js/argon.js?v=1.0.1"></script>
-      <!-- TODO: Add SDKs for Firebase products that you want to use
+      </div>
+   </footer>
+   <!-- Core -->
+   <script src="./assets/vendor/jquery/jquery.min.js"></script>
+   <script src="./assets/vendor/popper/popper.min.js"></script>
+   <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
+   <script src="./assets/vendor/headroom/headroom.min.js"></script>
+   <!-- Argon JS -->
+   <script src="./assets/js/argon.js?v=1.0.1"></script>
+   <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
-      <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
-      <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
-      <script defer src="./assets/js/firebase.js"></script>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDXT79DX30"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
+   <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+   <script defer src="./assets/js/firebase.js"></script>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=G-RDXT79DX30"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
 
-         gtag('config', 'G-RDXT79DX30');
-      </script>
-   </body>
+      gtag('config', 'G-RDXT79DX30');
+   </script>
+</body>
+
 </html>
